@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="boxes nav">
+                <button id="homebtn">
+                    <span class="material-icons">home</span>
+                </button>
+                <button id="searchbtn">
+                    <span class="material-icons">search</span>
+                </button>
+            </div>
+            <div class="boxes playlist">
+                <div id="library-flex">
+                    <button id="libraryList">
+                        <span class="material-icons">featured_play_list</span>
+                    </button>
+                </div>
+                <div class="playList-flex">
+                    <button class="playList-btn favourite">
+                        <span class="material-icons">favorite</span>
+                    </button>
+                    <button class="playList-btn bookmarks">
+                        <span class="material-icons">turned_in</span>
+                    </button>
+                    <button class="playList-btn"></button>
+                    <button class="playList-btn"></button>
+                    <button class="playList-btn"></button>
+                    <button class="playList-btn"></button>
+                    <button class="playList-btn"></button>
+                    <button class="playList-btn"></button>
+                    <button class="playList-btn"></button>
+                    <button class="playList-btn"></button>
+                </div>
+            </div>
+            <div class="boxes home">
+                <div class="sragvi-container">
+                    <div class="back-forward">
+                        <button class="back">
+                            <span class="material-icons">arrow_back_ios_new</span>
+                        </button>
+                        <button class="forward">
+                            <span class="material-icons">arrow_forward_ios_new</span>
+                        </button>
+                    </div>
+                    <img src="../Assets/Sragvi_profile.jpg" alt="Sragvi" class="This-is-sragvi">
+                    <p class="public-playlist">Public Playlist</p>
+                    <p class="heading">This Is Parigi Sragvi</p>
+                    <p class="artist-info">The silver dragon with fire in her performance.</p>
+                    <button class="sragviPlaysSong" onclick="playPauseTrack()">
+                        <span class="material-symbols-outlined">play_arrow</span>
+                    </button>
+                    <hr>
+                    <div class="contents-container">
+                        <div class="tracksDetails">
+                            <div class="TracksNavBar">
+                                <p class="TrackBarTrack">Track</p>
+                                <p class="TrackBarPlays">Plays</p>
+                                <p class="TrackBarDuration">Duration</p>
+                            </div>
+                            <div class="tracksGrid">
+                                <div class="trackNamebySragvi">
+                                    <button class="sragviPlaytrack" onclick="playPauseTrack()">
+                                        <span class="material-symbols-outlined">
+                                            play_arrow
+                                            </span>
+                                    </button>
+                                    <p class="trackName">Apsara ali</p>
+                                    <p class="playsNumber">180979</p>
+                                    <p class="durationNumber">1:23</p>
+                                </div>
+                                <div class="trackNamebySragvi" onclick="playPauseTrack()">
+                                    <button class="sragviPlaytrack">
+                                        <span class="material-symbols-outlined">
+                                            play_arrow
+                                            </span>
+                                    </button>
+                                    <p class="trackName">Apsara ali</p>
+                                    <p class="playsNumber">180979</p>
+                                    <p class="durationNumber">1:30</p>
+                                </div>
+                                <div class="trackNamebySragvi" onclick="playPauseTrack()">
+                                    <button class="sragviPlaytrack">
+                                        <span class="material-symbols-outlined">
+                                            play_arrow
+                                            </span>
+                                    </button>
+                                    <p class="trackName">Apsara ali</p>
+                                    <p class="playsNumber">180979</p>
+                                    <p class="durationNumber">1:30</p>
+                                </div>
+                                <div class="trackNamebySragvi" onclick="playPauseTrack()">
+                                    <button class="sragviPlaytrack">
+                                        <span class="material-symbols-outlined">
+                                            play_arrow
+                                            </span>
+                                    </button>
+                                    <p class="trackName">Apsara ali</p>
+                                    <p class="playsNumber">180979</p>
+                                    <p class="durationNumber">1:30</p>
+                                </div>
+                                <div class="trackNamebySragvi" onclick="playPauseTrack()">
+                                    <button class="sragviPlaytrack">
+                                        <span class="material-symbols-outlined">
+                                            play_arrow
+                                            </span>
+                                    </button>
+                                    <p class="trackName">Apsara ali</p>
+                                    <p class="playsNumber">180979</p>
+                                    <p class="durationNumber">1:30</p>
+                                </div>
+                                <div class="trackNamebySragvi" onclick="playPauseTrack()">
+                                    <button class="sragviPlaytrack">
+                                        <span class="material-symbols-outlined">
+                                            play_arrow
+                                            </span>
+                                    </button>
+                                    <p class="trackName">Apsara ali</p>
+                                    <p class="playsNumber">180979</p>
+                                    <p class="durationNumber">1:30</p>
+                                </div>
+                                <div class="trackNamebySragvi" onclick="playPauseTrack()">
+                                    <button class="sragviPlaytrack">
+                                        <span class="material-symbols-outlined">
+                                            play_arrow
+                                            </span>
+                                    </button>
+                                    <p class="trackName">Apsara ali</p>
+                                    <p class="playsNumber">180979</p>
+                                    <p class="durationNumber">1:30</p>
+                                </div>
+                                <div class="trackNamebySragvi" onclick="playPauseTrack()">
+                                    <button class="sragviPlaytrack">
+                                        <span class="material-symbols-outlined">
+                                            play_arrow
+                                            </span>
+                                    </button>
+                                    <p class="trackName">Apsara ali</p>
+                                    <p class="playsNumber">180979</p>
+                                    <p class="durationNumber">1:30</p>
+                                </div>
+                                <div class="trackNamebySragvi" onclick="playPauseTrack()">
+                                    <button class="sragviPlaytrack">
+                                        <span class="material-symbols-outlined">
+                                            play_arrow
+                                            </span>
+                                    </button>
+                                    <p class="trackName">Apsara ali</p>
+                                    <p class="playsNumber">180979</p>
+                                    <p class="durationNumber">1:30</p>
+                                </div>
+                                <div class="trackNamebySragvi" onclick="playPauseTrack()">
+                                    <button class="sragviPlaytrack">
+                                        <span class="material-symbols-outlined">
+                                            play_arrow
+                                            </span>
+                                    </button>
+                                    <p class="trackName">Apsara ali</p>
+                                    <p class="playsNumber">180979</p>
+                                    <p class="durationNumber">1:30</p>
+                                </div>
+                                <div class="trackNamebySragvi" onclick="playPauseTrack()">
+                                    <button class="sragviPlaytrack">
+                                        <span class="material-symbols-outlined">
+                                            play_arrow
+                                            </span>
+                                    </button>
+                                    <p class="trackName">Apsara ali</p>
+                                    <p class="playsNumber">180979</p>
+                                    <p class="durationNumber">1:30</p>
+                                </div>
+                                <div class="trackNamebySragvi" onclick="playPauseTrack()">
+                                    <button class="sragviPlaytrack">
+                                        <span class="material-symbols-outlined">
+                                            play_arrow
+                                            </span>
+                                    </button>
+                                    <p class="trackName">Apsara ali</p>
+                                    <p class="playsNumber">180979</p>
+                                    <p class="durationNumber">1:30</p>
+                                </div>
+                                <div class="trackNamebySragvi" onclick="playPauseTrack()">
+                                    <button class="sragviPlaytrack">
+                                        <span class="material-symbols-outlined">
+                                            play_arrow
+                                            </span>
+                                    </button>
+                                    <p class="trackName">Apsara ali</p>
+                                    <p class="playsNumber">180979</p>
+                                    <p class="durationNumber">1:30</p>
+                                </div>
+                                <div class="trackNamebySragvi" onclick="playPauseTrack()">
+                                    <button class="sragviPlaytrack">
+                                        <span class="material-symbols-outlined">
+                                            play_arrow
+                                            </span>
+                                    </button>
+                                    <p class="trackName">Apsara ali</p>
+                                    <p class="playsNumber">180979</p>
+                                    <p class="durationNumber">1:30</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="AboutSragvi">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="boxes player">
+                <img class="playerImg" src="../Assets/This is Sragvi.png" alt="sragvi">
+                <div class="songDetails">
+                    <span class="songname">Perfect cover</span>
+                    <span class="singername">Parigi Sragvi</span>
+                </div>
+                <div class="musicControl">
+                    <div class="prev-play-for">
+                        <button class="controlsBtn prev-btn" onclick="prevTrack()">
+                            <span class="material-icons">
+                                skip_previous
+                                </span>
+                        </button>
+                        <button class="controlsBtn playpause-btn" onclick="playPauseTrack()">
+                            <span class="material-icons">
+                                play_circle
+                                </span>
+                        </button>
+                        <button class="controlsBtn skip-btn" onclick="nextTrack()">
+                            <span class="material-icons">
+                                skip_next
+                                </span>
+                        </button>
+                    </div>
+                    <div class="songslider">
+                        <div class="slider_container">
+                            <div class="current-time">00:00</div>
+                            <input type="range" min="1" max="100"
+                                value="0" class="seek_slider" onchange="seekTo()">
+                            <div class="total-duration">00:00</div>
+                        </div>
+                    </div>
+                    <div class="slider_container">
+                        <i class="fa fa-volume-down"></i>
+                        <input type="range" min="1" max="100"
+                            value="99" class="volume_slider" onchange="setVolume()">
+                        <i class="fa fa-volume-up"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
