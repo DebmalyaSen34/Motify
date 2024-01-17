@@ -581,7 +581,7 @@ hr{
     border: none;
     display: grid;
     place-items: center;
-    margin-left: 3vmin;
+/*     margin-left: 3vmin; */
     cursor: pointer;
     /* box-shadow: 15px 0px 20px black; */
     visibility: hidden;
