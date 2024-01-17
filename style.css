@@ -134,49 +134,49 @@ body{
     opacity: 1 !important;
 }
 .playList-btn:nth-child(3){
-    background-image: url(../Assets/something_just_like_this.jpeg);
+    background-image: url(Assets/something_just_like_this.jpeg);
     background-repeat: none;
     background-size: 7vmin 7vmin;
 }
 
 .playList-btn:nth-child(4){
-    background-image: url(../Assets/blend_spotify.jpg);
+    background-image: url(Assets/blend_spotify.jpg);
     background-repeat: none;
     background-size: 7vmin 7vmin;
 }
 
 .playList-btn:nth-child(5){
-    background-image: url(../Assets/This\ is\ Sragvi.png);
+    background-image: url(Assets/This\ is\ Sragvi.png);
     background-repeat: none;
     background-size: 7vmin 7vmin;
 }
 
 .playList-btn:nth-child(6){
-    background-image: url(../Assets/this_is_arijit_singh.jpeg);
+    background-image: url(Assets/this_is_arijit_singh.jpeg);
     background-repeat: none;
     background-size: 7vmin 7vmin;
 }
 
 .playList-btn:nth-child(7){
-    background-image: url(../Assets/This_is_ariana_grande.jpeg);
+    background-image: url(Assets/This_is_ariana_grande.jpeg);
     background-repeat: none;
     background-size: 7vmin 7vmin;
 }
 
 .playList-btn:nth-child(8){
-    background-image: url(../Assets/This_is_anirudh.jpeg);
+    background-image: url(Assets/This_is_anirudh.jpeg);
     background-repeat: none;
     background-size: 7vmin 7vmin;
 }
 
 .playList-btn:nth-child(9){
-    background-image: url(../Assets/this_is_shreya_ghosal.jpg);
+    background-image: url(Assets/this_is_shreya_ghosal.jpg);
     background-repeat: none;
     background-size: 7vmin 7vmin;
 }
 
 .playList-btn:nth-child(10){
-    background-image: url(../Assets/your_top_songs.jpg);
+    background-image: url(Assets/your_top_songs.jpg);
     background-repeat: none;
     background-size: 7vmin 7vmin;
 }
